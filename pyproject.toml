@@ -9,6 +9,7 @@ packages = [{include = "dquran"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+bismillah-on-py = "1.0.1"
 Django = "~4.1.5"
 djangorestframework = "^3.14.0"
 xhtml2pdf = "^0.2.8"
