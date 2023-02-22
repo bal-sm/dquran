@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dquran"
+version = "0.2.0"
+description = ""
+authors = ["Iqbal Syifa Mahmuda <bal.mahmuda@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+packages = [{include = "dquran"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "~4.1.5"
+djangorestframework = "^3.14.0"
+xhtml2pdf = "^0.2.8"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+pre-commit = "^3.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
